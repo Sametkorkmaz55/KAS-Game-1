@@ -23,6 +23,7 @@ public class PlayerControl : MonoBehaviour
 
         fizik = GetComponent<Rigidbody>();
         anim = transform.GetChild(0).GetComponent<Animator>(); //Cocuk objesine erismede kullanilir
+        Debug.Log("A");
     }
 
 
